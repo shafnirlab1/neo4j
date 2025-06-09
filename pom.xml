@@ -169,7 +169,7 @@
     <awssdk-crt.version>0.31.3</awssdk-crt.version>
     <guava.version>33.3.1-jre</guava.version>
     <awaitility.version>4.2.2</awaitility.version>
-    <log4j.version>2.20.0</log4j.version>
+    <log4j.version>2.24.3</log4j.version>
     <slf4j.version>2.0.9</slf4j.version>
     <neo4j-java-driver.version>5.26.0</neo4j-java-driver.version>
     <eclipse-collections.version>11.1.0</eclipse-collections.version>
@@ -359,8 +359,7 @@
           <artifactId>maven-failsafe-plugin</artifactId>
           <version>3.5.1</version>
           <configuration>
-            <statelessTestsetReporter
-                    implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
+            <statelessTestsetReporter implementation="org.apache.maven.plugin.surefire.extensions.junit5.JUnit5Xml30StatelessReporter">
               <disable>false</disable>
               <usePhrasedFileName>false</usePhrasedFileName>
               <usePhrasedTestSuiteClassName>false</usePhrasedTestSuiteClassName>
